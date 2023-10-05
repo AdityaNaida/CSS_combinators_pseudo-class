@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background: tomato;
+}
+.box-1{
+    width: 100%;
+    padding: 10px 20px;
+    background: lightblue;
+}
+.box-2{
+    width: 100%;
+    padding: 10px 20px;
+    background: lightgreen;
+}
+.box-3{
+    width: 100%;
+    padding: 10px 20px;
+    background: lightpink;
+}
+.box-4{
+    width: 100%;
+    padding: 10px 20px;
+    background: lightyellow;
+}
+.box-1 > h1{
+    color: red;
+}
+
+/* .box-1 + div{
+    background: yellow;
+} */
+
+.box-1 ~ div{
+    background: yellow;
+} 

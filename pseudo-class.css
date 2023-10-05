@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div:first-child{
+    padding: 20px 40px;
+    background-color: yellow;
+}
+div:nth-child(5){
+    background-color: aqua;
+}
+div:nth-child(3){
+    background-color: orange;
+}
+
+div:first-child > p::first-line{
+    background-color:purple ;
+    color: #fff;
+}
+div:first-child > p{
+    margin-bottom: 30px;
+}
+
+div:first-child > p::selection{
+
+    background-color: red;
+    color: yellow;
+}
+
+/* div:first-child > p::first-letter{
+    background-color:orange ;
+    color: aqua;
+} */
+
+/* div:first-child > p + a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 4px 8px;
+    background: blue;
+    color: #fff;
+    border-radius: 10px;
+    margin-top: 40px;
+} */
+/* div:first-child  a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 4px 8px;
+    background: blue;
+    color: #fff;
+    border-radius: 10px;
+    margin-top: 40px;
+} */
+div:first-child > a{
+    /* display: inline-block; */
+    text-decoration: none;
+    padding: 4px 8px;
+    background: blue;
+    color: #fff;
+    border-radius: 10px;
+    /* margin-top: 40px; */
+} 
+
+div:first-child > a:hover{
+    background: red;
+}
+
+div:first-child > a:active{
+    background-color: pink;
+    color: black;
+}
+
+/* div:first-child > h1::before{
+    content: url(images/frog.gif);
+} */
+
+/* div:first-child > h1::after{
+    content: url(images/frog.gif);
+}  */
